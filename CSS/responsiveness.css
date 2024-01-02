@@ -1,0 +1,29 @@
+/**************************************
+    Responsiveness to width changes    
+***************************************/
+
+@media screen and (max-width:1220px) {
+    
+}
+
+@media screen and (max-width:975px) {
+
+}
+
+@media screen and (max-width:800px) {
+
+}
+
+@media screen and (max-width:674px) {
+
+}
+
+@media (min-width: 200px) and (max-width: 975px) {
+    @media (orientation: landscape) {
+
+    }
+
+    @media (orientation: portrait) {
+
+    }
+}

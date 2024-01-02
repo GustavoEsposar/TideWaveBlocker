@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto 40px;
+    text-shadow: 0 0 5px black;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}

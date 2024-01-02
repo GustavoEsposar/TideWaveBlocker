@@ -1,0 +1,78 @@
+.content .input-container > div {
+    position: relative;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.content .input-container .material-symbols-outlined {
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.content .input-container p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-indent: 0;
+}
+
+.content .input-container .ilink {
+    color: black;
+    border-style: none;
+    background-color: var(--white-contrast);
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 250ms;
+    outline: none;
+    box-shadow: 0 0 10px var(--blue-primary);
+}
+
+.content .input-container .ilink:hover {
+    box-shadow: 0 0 20px var(--blue-primary);
+}
+
+.content .input-container .ilink:invalid {
+    animation: shake 0.2s ease-in-out 0s 2;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.content .input-container .ilink:invalid:hover {
+    box-shadow: 0 0 20px #ff0000;
+}
+
+.content .details-container {
+    margin: 60px 50px;
+}
+
+.content .details-container .details-list {
+    list-style: none;
+}
+
+.content .details-container .details-list li {
+    margin: 30px 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px var(--blue-secondary);
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 250ms;
+
+}
+
+.content .details-container .details-list li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px var(--blue-secondary);
+    transform: scale(1.05);
+}
+
+.content .details-container .details-list li h1 {
+    font-size: 40px;
+}
+
+.content .details-container .details-list li p {
+    font-size: 22px;
+    line-height: 1.5;
+}

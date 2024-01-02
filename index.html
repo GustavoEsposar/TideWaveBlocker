@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500;600;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <!------------------google symbols------------------>
+    <!--search-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--report-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--check-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--danger-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--------------------CSS import-------------------->
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>TideWave Blocker</title>
+    <link rel="icon" type="image/png" href="fig/logo-favicon.png" />
+</head>
+
+<body>
+    <section class="container">
+        <img src="fig/background.jpg" alt="Background ilustrativo">
+        <div class="response hidden">
+        </div>
+        <header class="header">
+            <img src="fig/logo-marca.png" alt="Logomarca do serviço">
+            <div class="text">
+                <h1>TideWave Blocker</h1>
+                <h2>Seu amigo contra o phishing</h2>
+            </div>
+        </header>
+        <section class="content">
+        
+            <div class="input-container">
+                <div>
+                    <input type="url" name="website" id="ilink" placeholder="Insira seu link duvidoso aqui e descubra!"
+                    maxlength="1000" class="ilink">
+                    <span class="material-symbols-outlined" id="verificarLinkSpan">search</span>
+                </div>
+                <p>Use também nossa extensão e navegue com mais segurança clicando <a href="https://www.example.com">aqui</a></p>
+            </div>
+
+            <div class="details-container">
+                <ul class="details-list">
+                    <li>
+                        <h1>Nossa missão</h1>
+                        <p>Diante do crescimento exponencial de ciberataques e suas engenhosidades sentimos que algo devia ser feito, não podíamos ficar parados! Com este propósito desenvolvemos uma ferramenta com o intuito de ser acessível, eficaz e de fácil uso contra um dos tipos mais comuns de ciberataques, <b>o phishing</b>. Auxiliamos a verificar a autenticidade de mensagens e sites, fornecendo uma camada adicional de proteção contra ataques de phishing, garantindo sua segurança ao navegar na web.</p>
+                    </li>
+                    <li>
+                        <h1>O que é Phising?</h1>
+                        <p><b><i>Phishing</i></b> é um trocadilho que refere-se à palavra "fishing" do inglês, significando "pescaria", porém nesta <b>você</b> é a pesca! Trata-se de uma técnica de fraude cibernética na qual os criminosos tentam enganar as pessoas, fazendo-se passar por fontes confiáveis. As principais características do phishing incluem a criação de mensagens convincentes que geralmente envolvem um senso de urgência, ameaças ou incentivos para que as vítimas ajam rapidamente. Os links geralmente direcionam para sites falsos que se assemelham aos originais, mas são projetados para coletar dados pessoais. Dentre as diversas técnicas fraudulentas nosso foco está em identificar os links de redirecionamento para o roubo de dados antes que você seja pescado!</p>
+                    </li>
+                    <li>
+                        <h1>Extensão para navegadores</h1>
+                        <p>Nossa extensão <b><i>TideWave Blocker</i></b> funciona da seguinte forma: a partir do momento em que está instalada, toda página web que termina de ser carregada passa por uma verificação minuciosa do conteúdo procurando links de redirecionamento, cada link identificado é enviado para uma base de dados que armazena links conhecidos por serem malicioso. Desta maneira, retornamos o resultado da análise informando se o site é seguro e se possui ou não links maliciosos, identificando-os de forma explicita a você!</p>
+                    </li>
+            </div>
+            </ul>
+        </section>
+    </section>
+    <footer class="footer">
+        <h2>&copy; 2023 - Powered by <a href="https://phishtank.org/">PhishTank</a></h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+ 
+</html>

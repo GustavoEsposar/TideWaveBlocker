@@ -1,0 +1,53 @@
+.container .response {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: 70%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    transition: all 250ms;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    text-indent: 0px;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+}
+
+.container .response p {
+    overflow: auto;
+    text-indent: 0;
+    text-align: center;
+}
+
+.container .response p i {
+     overflow-wrap: break-word;
+     text-decoration: underline;
+}
+
+.container .response .material-symbols-outlined {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.hidden {
+    top: -200%;
+}
+
+.notify {
+    top: 50%;
+    background-color: var(--blue-primary);
+    box-shadow: 0 0 20px var(--blue-primary);
+}
+
+.danger {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+.warning {
+    background-color: rgb(255, 174, 0);
+    box-shadow: 0 0 20px rgb(255, 174, 0);
+}
