@@ -1,11 +1,11 @@
 import express from "express";
 import fetch from "node-fetch";
-import cors from "cors"; // Importe o pacote cors
+import cors from "cors";
 
 const app = express();
-const port = 3000; // Porta da sua API local
+const port = 3000; 
 
-app.use(cors()); // Use o middleware do cors
+app.use(cors());
 
 app.use(express.json());
 

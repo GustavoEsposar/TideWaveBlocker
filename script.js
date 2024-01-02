@@ -1,5 +1,5 @@
 // ---------- Constants ---------------------------------------------
-const apiUrl = "https://tideapi.supersite.cloud/checkurl"; // Altere a URL da API para corresponder à sua implementação
+const apiUrl = "https://tideapi.supersite.cloud/checkurl";
 const input_link = document.getElementById("ilink");
 const urlRegex = /^(https?|ftp):\/\/[^\s/$.?#].*$/;
 const response = document.getElementsByClassName("response")[0];
@@ -13,7 +13,6 @@ function reset_css() {
   response.classList.remove("warning");
 }
 
-// Encontre o elemento pelo ID e adicione um ouvinte de evento a ele
 const verificarLinkSpan = document.getElementById("verificarLinkSpan");
 verificarLinkSpan.addEventListener("click", function () {
   verificarLink();
