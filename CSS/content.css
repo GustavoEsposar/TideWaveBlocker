@@ -8,6 +8,9 @@
 .content .input-container .material-symbols-outlined {
     margin-left: -40px;
     cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    border-radius: 16px;
 }
 
 .content .input-container p {
@@ -59,7 +62,6 @@
     border-radius: 20px;
     padding: 20px;
     transition: all 250ms;
-
 }
 
 .content .details-container .details-list li:hover {

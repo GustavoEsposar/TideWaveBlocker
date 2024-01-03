@@ -2,20 +2,47 @@
     Responsiveness to width changes    
 ***************************************/
 
-@media screen and (max-width:1220px) {
-    
+@media screen and (max-width:985px) {
+    .container {
+        width: 90vw;
+    }
 }
 
-@media screen and (max-width:975px) {
+@media screen and (max-width:620px) {
+    .container {
+        width: 95vw;
+    }
 
-}
+    .header {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
 
-@media screen and (max-width:800px) {
+    .header .text {
+        text-shadow: 0 0 3px white !important;
+    }
 
-}
+    .input-container {
+        padding-top: 20px;
+    }
 
-@media screen and (max-width:674px) {
+    .input-container > div .ilink {
+        width: 80% !important;
+    }
 
+    .input-container > p {
+        text-shadow: 0 0 5px white;
+        padding: 20px 15px 0;
+    }
+
+    .content .details-container {
+        margin: 0 10px;
+    }
+
+    .content .details-container .details-list li {
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 20px var(--blue-secondary);
+    }
 }
 
 @media (min-width: 200px) and (max-width: 975px) {

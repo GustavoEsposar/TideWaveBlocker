@@ -4,7 +4,11 @@ const input_link = document.getElementById("ilink");
 const urlRegex = /^(https?|ftp):\/\/[^\s/$.?#].*$/;
 const response = document.getElementsByClassName("response")[0];
 // ------------------------------------------------------------------
-
+// -----------  Setting a constant for viewPort Height and Width -----------
+const root = document.documentElement
+root.style.setProperty('--original-viewport-height', window.innerHeight + "px");
+root.style.setProperty('--original-viewport-width', window.innerWidth + "px");
+//--------------------------------------------------------------------------
 // ---------- FUNCTIONS  ---------------------------------------------
 function reset_css() {
   response.classList.add("hidden");
